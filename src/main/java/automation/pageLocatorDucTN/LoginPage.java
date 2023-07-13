@@ -1,4 +1,4 @@
-package automation.pageLocatorTrangNTH;
+package automation.pageLocatorDucTN;
 
 import static org.testng.Assert.assertEquals;
 
@@ -9,6 +9,7 @@ import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+@SuppressWarnings("unused")
 public class LoginPage {
 	private static final String DashboardPage = null;
 	WebDriver driver;

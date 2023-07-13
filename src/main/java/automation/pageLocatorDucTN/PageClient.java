@@ -1,4 +1,4 @@
-package automation.pageLocatorTrangNTH;
+package automation.pageLocatorDucTN;
 
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
@@ -11,6 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+@SuppressWarnings("unused")
 public class PageClient {
 	private WebDriver driver;
 	@FindBy(xpath = "//a[@class='btn btn-default' and @title='Add client']")

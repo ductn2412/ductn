@@ -1,1 +1,1 @@
-package automation.pageLocatorTrangNTH;
+package automation.pageLocatorDucTN;

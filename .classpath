@@ -54,5 +54,6 @@
 	<classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.5/commons-lang-2.5.jar"/>
 	<classpathentry kind="var" path="M2_REPO/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="src" path="/SeleniumBasicXPath"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

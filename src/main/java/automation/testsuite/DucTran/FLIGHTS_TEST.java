@@ -1,4 +1,4 @@
-package automation.pageLocatorDucTN;
+package automation.testsuite.DucTran;
 
 import java.util.concurrent.TimeUnit;
 
@@ -10,6 +10,7 @@ import automation.common.CommonBase;
 import automation.constant.CT_Account;
 import automation.pageLocatorDucTN.Flights_PAGE;
 
+@SuppressWarnings("unused")
 public class FLIGHTS_TEST extends CommonBase{
 	WebDriver driver;
 	@BeforeTest

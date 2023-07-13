@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\trangnth\AppData\Local\Temp\testng-eclipse-690858078\testng-customsuite.xml</span>
+                    <span>C:\Users\OS\AppData\Local\Temp\testng-eclipse-2080015042\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">7 methods, 6 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,10 +104,49 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.TrangNguyen.FLIGHTS_TEST" class="method navigator-link" hash-for-method="Search_SS">Search_SS</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.DucTran.loginTest" class="method navigator-link" hash-for-method="LoginUnSS_not_valid_password">LoginUnSS_not_valid_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.DucTran.loginTest" class="method navigator-link" hash-for-method="LoginUnSS_not_valid_username">LoginUnSS_not_valid_username</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.DucTran.loginTest" class="method navigator-link" hash-for-method="LoginUnSS_password_have_space_between">LoginUnSS_password_have_space_between</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.DucTran.loginTest" class="method navigator-link" hash-for-method="LoginUnSS_password_is_Blank">LoginUnSS_password_is_Blank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.DucTran.loginTest" class="method navigator-link" hash-for-method="LoginUnSS_username_have_space_between">LoginUnSS_username_have_space_between</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.DucTran.loginTest" class="method navigator-link" hash-for-method="LoginUnSS_username_is_Blank">LoginUnSS_username_is_Blank</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="automation.testsuite.DucTran.loginTest" class="method navigator-link" hash-for-method="LoginUnSS_not_Exist">LoginUnSS_not_Exist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,21 +161,41 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">automation.testsuite.TrangNguyen.FLIGHTS_TEST</span>
+              <span class="class-name">automation.testsuite.DucTran.loginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Search_SS">
-                  </a> <!-- Search_SS -->
-                  <span class="method-name">Search_SS</span>
-                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
-	The method clear() is undefined for the type Flights_PAGE
-	The method sendKeys(String) is undefined for the type Flights_PAGE
-	TAB cannot be resolved or is not a field
-
-	at automation.pageLocatorTrangNTH.Flights_PAGE.SearchSS(Flights_PAGE.java:109)
-	at automation.testsuite.TrangNguyen.FLIGHTS_TEST.Search_SS(FLIGHTS_TEST.java:26)
+                  <a name="LoginUnSS_not_valid_password">
+                  </a> <!-- LoginUnSS_not_valid_password -->
+                  <span class="method-name">LoginUnSS_not_valid_password</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	GetHandleVerifier [0x010E8893+48451]
+	(No symbol) [0x0107B8A1]
+	(No symbol) [0x00F84F20]
+	(No symbol) [0x00FA7A42]
+	(No symbol) [0x00FA8F2D]
+	GetHandleVerifier [0x01348E3A+2540266]
+	GetHandleVerifier [0x01388959+2801161]
+	GetHandleVerifier [0x0138295C+2776588]
+	GetHandleVerifier [0x01172280+612144]
+	(No symbol) [0x01084F6C]
+	(No symbol) [0x010811D8]
+	(No symbol) [0x010812BB]
+	(No symbol) [0x01074857]
+	BaseThreadInitThunk [0x76306BA9+25]
+	RtlGetFullPathName_UEx [0x779E8F9F+1215]
+	RtlGetFullPathName_UEx [0x779E8F6D+1165]
+, error=invalid session id, message=invalid session id}
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-HILIOM4&apos;, ip: &apos;192.168.0.110&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at automation.pageLocatorDucTN.LoginPage.Login(LoginPage.java:31)
+	at automation.testsuite.DucTran.loginTest.LoginUnSS_not_valid_password(loginTest.java:72)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -165,16 +224,394 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: class com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to class org.openqa.selenium.WebElement (com.google.common.collect.Maps$TransformedEntriesMap and org.openqa.selenium.WebElement are in unnamed module of loader &apos;app&apos;)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	... 33 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginUnSS_not_valid_username">
+                  </a> <!-- LoginUnSS_not_valid_username -->
+                  <span class="method-name">LoginUnSS_not_valid_username</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	GetHandleVerifier [0x010E8893+48451]
+	(No symbol) [0x0107B8A1]
+	(No symbol) [0x00F84F20]
+	(No symbol) [0x00FA77AC]
+	(No symbol) [0x00FCA1B6]
+	(No symbol) [0x00FC6C2D]
+	(No symbol) [0x00FC669A]
+	(No symbol) [0x00F65301]
+	(No symbol) [0x00F6570E]
+	(No symbol) [0x00F65AEA]
+	GetHandleVerifier [0x01348E3A+2540266]
+	GetHandleVerifier [0x01388959+2801161]
+	GetHandleVerifier [0x0138295C+2776588]
+	GetHandleVerifier [0x01172280+612144]
+	(No symbol) [0x01084F6C]
+	(No symbol) [0x00F64F5A]
+	(No symbol) [0x00F64959]
+	GetHandleVerifier [0x013AFD7C+2961964]
+	BaseThreadInitThunk [0x76306BA9+25]
+	RtlGetFullPathName_UEx [0x779E8F9F+1215]
+	RtlGetFullPathName_UEx [0x779E8F6D+1165]
+, error=invalid session id, message=invalid session id}
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-HILIOM4&apos;, ip: &apos;192.168.0.110&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at automation.pageLocatorDucTN.LoginPage.Login(LoginPage.java:31)
+	at automation.testsuite.DucTran.loginTest.LoginUnSS_not_valid_username(loginTest.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: class com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to class org.openqa.selenium.WebElement (com.google.common.collect.Maps$TransformedEntriesMap and org.openqa.selenium.WebElement are in unnamed module of loader &apos;app&apos;)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	... 33 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginUnSS_password_have_space_between">
+                  </a> <!-- LoginUnSS_password_have_space_between -->
+                  <span class="method-name">LoginUnSS_password_have_space_between</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	GetHandleVerifier [0x010E8893+48451]
+	(No symbol) [0x0107B8A1]
+	(No symbol) [0x00F84F20]
+	(No symbol) [0x00FA77AC]
+	(No symbol) [0x00FCA1B6]
+	(No symbol) [0x00FC6C2D]
+	(No symbol) [0x00FC669A]
+	(No symbol) [0x00F65301]
+	(No symbol) [0x00F6570E]
+	(No symbol) [0x00F65AEA]
+	GetHandleVerifier [0x01348E3A+2540266]
+	GetHandleVerifier [0x01388959+2801161]
+	GetHandleVerifier [0x0138295C+2776588]
+	GetHandleVerifier [0x01172280+612144]
+	(No symbol) [0x01084F6C]
+	(No symbol) [0x00F64F5A]
+	(No symbol) [0x00F64959]
+	GetHandleVerifier [0x013AFD7C+2961964]
+	BaseThreadInitThunk [0x76306BA9+25]
+	RtlGetFullPathName_UEx [0x779E8F9F+1215]
+	RtlGetFullPathName_UEx [0x779E8F6D+1165]
+, error=invalid session id, message=invalid session id}
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-HILIOM4&apos;, ip: &apos;192.168.0.110&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at automation.pageLocatorDucTN.LoginPage.Login(LoginPage.java:31)
+	at automation.testsuite.DucTran.loginTest.LoginUnSS_password_have_space_between(loginTest.java:87)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: class com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to class org.openqa.selenium.WebElement (com.google.common.collect.Maps$TransformedEntriesMap and org.openqa.selenium.WebElement are in unnamed module of loader &apos;app&apos;)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	... 33 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginUnSS_password_is_Blank">
+                  </a> <!-- LoginUnSS_password_is_Blank -->
+                  <span class="method-name">LoginUnSS_password_is_Blank</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	GetHandleVerifier [0x010E8893+48451]
+	(No symbol) [0x0107B8A1]
+	(No symbol) [0x00F84F20]
+	(No symbol) [0x00FA77AC]
+	(No symbol) [0x00FCA1B6]
+	(No symbol) [0x00FC6C2D]
+	(No symbol) [0x00FC669A]
+	(No symbol) [0x00F65301]
+	(No symbol) [0x00F6570E]
+	(No symbol) [0x00F65AEA]
+	GetHandleVerifier [0x01348E3A+2540266]
+	GetHandleVerifier [0x01388959+2801161]
+	GetHandleVerifier [0x0138295C+2776588]
+	GetHandleVerifier [0x01172280+612144]
+	(No symbol) [0x01084F6C]
+	(No symbol) [0x00F64F5A]
+	(No symbol) [0x00F64959]
+	GetHandleVerifier [0x013AFD7C+2961964]
+	BaseThreadInitThunk [0x76306BA9+25]
+	RtlGetFullPathName_UEx [0x779E8F9F+1215]
+	RtlGetFullPathName_UEx [0x779E8F6D+1165]
+, error=invalid session id, message=invalid session id}
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-HILIOM4&apos;, ip: &apos;192.168.0.110&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at automation.pageLocatorDucTN.LoginPage.Login(LoginPage.java:31)
+	at automation.testsuite.DucTran.loginTest.LoginUnSS_password_is_Blank(loginTest.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: class com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to class org.openqa.selenium.WebElement (com.google.common.collect.Maps$TransformedEntriesMap and org.openqa.selenium.WebElement are in unnamed module of loader &apos;app&apos;)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	... 33 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginUnSS_username_have_space_between">
+                  </a> <!-- LoginUnSS_username_have_space_between -->
+                  <span class="method-name">LoginUnSS_username_have_space_between</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	GetHandleVerifier [0x010E8893+48451]
+	(No symbol) [0x0107B8A1]
+	(No symbol) [0x00F84F20]
+	(No symbol) [0x00FA77AC]
+	(No symbol) [0x00FCA1B6]
+	(No symbol) [0x00FC6C2D]
+	(No symbol) [0x00FC669A]
+	(No symbol) [0x00F65301]
+	(No symbol) [0x00F6570E]
+	(No symbol) [0x00F65AEA]
+	GetHandleVerifier [0x01348E3A+2540266]
+	GetHandleVerifier [0x01388959+2801161]
+	GetHandleVerifier [0x0138295C+2776588]
+	GetHandleVerifier [0x01172280+612144]
+	(No symbol) [0x01084F6C]
+	(No symbol) [0x00F64F5A]
+	(No symbol) [0x00F64959]
+	GetHandleVerifier [0x013AFD7C+2961964]
+	BaseThreadInitThunk [0x76306BA9+25]
+	RtlGetFullPathName_UEx [0x779E8F9F+1215]
+	RtlGetFullPathName_UEx [0x779E8F6D+1165]
+, error=invalid session id, message=invalid session id}
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-HILIOM4&apos;, ip: &apos;192.168.0.110&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at automation.pageLocatorDucTN.LoginPage.Login(LoginPage.java:31)
+	at automation.testsuite.DucTran.loginTest.LoginUnSS_username_have_space_between(loginTest.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: class com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to class org.openqa.selenium.WebElement (com.google.common.collect.Maps$TransformedEntriesMap and org.openqa.selenium.WebElement are in unnamed module of loader &apos;app&apos;)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	... 33 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginUnSS_username_is_Blank">
+                  </a> <!-- LoginUnSS_username_is_Blank -->
+                  <span class="method-name">LoginUnSS_username_is_Blank</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	GetHandleVerifier [0x010E8893+48451]
+	(No symbol) [0x0107B8A1]
+	(No symbol) [0x00F84F20]
+	(No symbol) [0x00FA77AC]
+	(No symbol) [0x00FCA1B6]
+	(No symbol) [0x00FC6C2D]
+	(No symbol) [0x00FC669A]
+	(No symbol) [0x00F65301]
+	(No symbol) [0x00F6570E]
+	(No symbol) [0x00F65AEA]
+	GetHandleVerifier [0x01348E3A+2540266]
+	GetHandleVerifier [0x01388959+2801161]
+	GetHandleVerifier [0x0138295C+2776588]
+	GetHandleVerifier [0x01172280+612144]
+	(No symbol) [0x01084F6C]
+	(No symbol) [0x00F64F5A]
+	(No symbol) [0x00F64959]
+	GetHandleVerifier [0x013AFD7C+2961964]
+	BaseThreadInitThunk [0x76306BA9+25]
+	RtlGetFullPathName_UEx [0x779E8F9F+1215]
+	RtlGetFullPathName_UEx [0x779E8F6D+1165]
+, error=invalid session id, message=invalid session id}
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-HILIOM4&apos;, ip: &apos;192.168.0.110&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at automation.pageLocatorDucTN.LoginPage.Login(LoginPage.java:31)
+	at automation.testsuite.DucTran.loginTest.LoginUnSS_username_is_Blank(loginTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: class com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to class org.openqa.selenium.WebElement (com.google.common.collect.Maps$TransformedEntriesMap and org.openqa.selenium.WebElement are in unnamed module of loader &apos;app&apos;)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	... 33 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation.testsuite.DucTran.loginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginUnSS_not_Exist">
+                  </a> <!-- LoginUnSS_not_Exist -->
+                  <span class="method-name">LoginUnSS_not_Exist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\trangnth\AppData\Local\Temp\testng-eclipse-690858078\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\OS\AppData\Local\Temp\testng-eclipse-2080015042\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -183,11 +620,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;automation.testsuite.TrangNguyen.FLIGHTS_TEST&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;Search_SS&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- automation.testsuite.TrangNguyen.FLIGHTS_TEST --&gt;
+      &lt;class name=&quot;automation.testsuite.DucTran.loginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -227,16 +660,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Search_SS')
-data.setCell(0, 2, 'automation.testsuite.TrangNguyen.FLIGHTS_TEST')
-data.setCell(0, 3, 92);
+data.setCell(0, 1, 'LoginUnSS_not_Exist')
+data.setCell(0, 2, 'automation.testsuite.DucTran.loginTest')
+data.setCell(0, 3, 3110);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginUnSS_not_valid_password')
+data.setCell(1, 2, 'automation.testsuite.DucTran.loginTest')
+data.setCell(1, 3, 27);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginUnSS_password_is_Blank')
+data.setCell(2, 2, 'automation.testsuite.DucTran.loginTest')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginUnSS_password_have_space_between')
+data.setCell(3, 2, 'automation.testsuite.DucTran.loginTest')
+data.setCell(3, 3, 5);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginUnSS_not_valid_username')
+data.setCell(4, 2, 'automation.testsuite.DucTran.loginTest')
+data.setCell(4, 3, 5);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginUnSS_username_have_space_between')
+data.setCell(5, 2, 'automation.testsuite.DucTran.loginTest')
+data.setCell(5, 3, 5);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginUnSS_username_is_Blank')
+data.setCell(6, 2, 'automation.testsuite.DucTran.loginTest')
+data.setCell(6, 3, 4);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 92 ms</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -262,17 +719,55 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">automation.testsuite.TrangNguyen.FLIGHTS_TEST</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">automation.testsuite.DucTran.loginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">openSystemUnderTest</span>
+                <span class="method-name">openChromeDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <span class="method-name">LoginUnSS_not_Exist</span>
+                <span class="method-start">38291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">Search_SS</span>
-                <span class="method-start">7867 ms</span>
+                <span class="method-name">LoginUnSS_not_valid_password</span>
+                <span class="method-start">41405 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginUnSS_not_valid_username</span>
+                <span class="method-start">41438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginUnSS_password_have_space_between</span>
+                <span class="method-start">41445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginUnSS_password_is_Blank</span>
+                <span class="method-start">41452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginUnSS_username_have_space_between</span>
+                <span class="method-start">41461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginUnSS_username_is_Blank</span>
+                <span class="method-start">41468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeChromeBrower</span>
+                <span class="method-start">41475 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

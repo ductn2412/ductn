@@ -1,4 +1,4 @@
-package automation.pageLocatorTrangNTH;
+package automation.pageLocatorDucTN;
 
 import static org.testng.Assert.assertEquals;
 import org.openqa.selenium.WebElement;
@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+@SuppressWarnings("unused")
 public class LoginPage_days14 {
 	private WebDriver driver;
 
@@ -35,7 +36,7 @@ public class LoginPage_days14 {
 	public static By PWisrequired;
 
 	public LoginPage_days14(WebDriver driver) {
-		this.driver = driver;
+		this.setDriver(driver);
 		PageFactory.initElements(driver, this);
 	}
 
@@ -46,5 +47,13 @@ public class LoginPage_days14 {
  		txtPass.clear();
  		txtPass.sendKeys(password);
  		btnLogin.click(); 
+	}
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public void setDriver(WebDriver driver) {
+		this.driver = driver;
 	}
 }
